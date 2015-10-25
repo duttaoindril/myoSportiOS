@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8606630F1BDC708600D2D3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606630E1BDC708600D2D3BE /* AppDelegate.swift */; };
+		860663111BDC708600D2D3BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860663101BDC708600D2D3BE /* ViewController.swift */; };
+		860663141BDC708600D2D3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860663121BDC708600D2D3BE /* Main.storyboard */; };
+		860663161BDC708600D2D3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860663151BDC708600D2D3BE /* Assets.xcassets */; };
+		860663191BDC708600D2D3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860663171BDC708600D2D3BE /* LaunchScreen.storyboard */; };
+		860663241BDC708600D2D3BE /* LearnMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860663231BDC708600D2D3BE /* LearnMotionTests.swift */; };
+		8606632F1BDC708600D2D3BE /* LearnMotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606632E1BDC708600D2D3BE /* LearnMotionUITests.swift */; };
+		8606633D1BDC71D400D2D3BE /* DTW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606633C1BDC71D400D2D3BE /* DTW.swift */; settings = {ASSET_TAGS = (); }; };
+		8606633F1BDC72B500D2D3BE /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8606633E1BDC72B500D2D3BE /* MyoKit.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		860663201BDC708600D2D3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860663031BDC708600D2D3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8606630A1BDC708600D2D3BE;
+			remoteInfo = LearnMotion;
+		};
+		8606632B1BDC708600D2D3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860663031BDC708600D2D3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8606630A1BDC708600D2D3BE;
+			remoteInfo = LearnMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8606630B1BDC708600D2D3BE /* LearnMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8606630E1BDC708600D2D3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		860663101BDC708600D2D3BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		860663131BDC708600D2D3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		860663151BDC708600D2D3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860663181BDC708600D2D3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8606631A1BDC708600D2D3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8606631F1BDC708600D2D3BE /* LearnMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860663231BDC708600D2D3BE /* LearnMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMotionTests.swift; sourceTree = "<group>"; };
+		860663251BDC708600D2D3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8606632A1BDC708600D2D3BE /* LearnMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8606632E1BDC708600D2D3BE /* LearnMotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMotionUITests.swift; sourceTree = "<group>"; };
+		860663301BDC708600D2D3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8606633C1BDC71D400D2D3BE /* DTW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTW.swift; sourceTree = "<group>"; };
+		8606633E1BDC72B500D2D3BE /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		8665987D1BDC7D9C00FF3946 /* JoeyBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JoeyBridgeHeader.h; path = ../JoeyBridgeHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860663081BDC708600D2D3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8606633F1BDC72B500D2D3BE /* MyoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8606631C1BDC708600D2D3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860663271BDC708600D2D3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860663021BDC708600D2D3BE = {
+			isa = PBXGroup;
+			children = (
+				8606633E1BDC72B500D2D3BE /* MyoKit.framework */,
+				8606630D1BDC708600D2D3BE /* LearnMotion */,
+				860663221BDC708600D2D3BE /* LearnMotionTests */,
+				8606632D1BDC708600D2D3BE /* LearnMotionUITests */,
+				8606630C1BDC708600D2D3BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8606630C1BDC708600D2D3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8606630B1BDC708600D2D3BE /* LearnMotion.app */,
+				8606631F1BDC708600D2D3BE /* LearnMotionTests.xctest */,
+				8606632A1BDC708600D2D3BE /* LearnMotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8606630D1BDC708600D2D3BE /* LearnMotion */ = {
+			isa = PBXGroup;
+			children = (
+				8665987D1BDC7D9C00FF3946 /* JoeyBridgeHeader.h */,
+				8606630E1BDC708600D2D3BE /* AppDelegate.swift */,
+				860663101BDC708600D2D3BE /* ViewController.swift */,
+				860663121BDC708600D2D3BE /* Main.storyboard */,
+				860663151BDC708600D2D3BE /* Assets.xcassets */,
+				860663171BDC708600D2D3BE /* LaunchScreen.storyboard */,
+				8606631A1BDC708600D2D3BE /* Info.plist */,
+				8606633C1BDC71D400D2D3BE /* DTW.swift */,
+			);
+			path = LearnMotion;
+			sourceTree = "<group>";
+		};
+		860663221BDC708600D2D3BE /* LearnMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				860663231BDC708600D2D3BE /* LearnMotionTests.swift */,
+				860663251BDC708600D2D3BE /* Info.plist */,
+			);
+			path = LearnMotionTests;
+			sourceTree = "<group>";
+		};
+		8606632D1BDC708600D2D3BE /* LearnMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8606632E1BDC708600D2D3BE /* LearnMotionUITests.swift */,
+				860663301BDC708600D2D3BE /* Info.plist */,
+			);
+			path = LearnMotionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8606630A1BDC708600D2D3BE /* LearnMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860663331BDC708600D2D3BE /* Build configuration list for PBXNativeTarget "LearnMotion" */;
+			buildPhases = (
+				860663071BDC708600D2D3BE /* Sources */,
+				860663081BDC708600D2D3BE /* Frameworks */,
+				860663091BDC708600D2D3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnMotion;
+			productName = LearnMotion;
+			productReference = 8606630B1BDC708600D2D3BE /* LearnMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8606631E1BDC708600D2D3BE /* LearnMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860663361BDC708600D2D3BE /* Build configuration list for PBXNativeTarget "LearnMotionTests" */;
+			buildPhases = (
+				8606631B1BDC708600D2D3BE /* Sources */,
+				8606631C1BDC708600D2D3BE /* Frameworks */,
+				8606631D1BDC708600D2D3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860663211BDC708600D2D3BE /* PBXTargetDependency */,
+			);
+			name = LearnMotionTests;
+			productName = LearnMotionTests;
+			productReference = 8606631F1BDC708600D2D3BE /* LearnMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		860663291BDC708600D2D3BE /* LearnMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860663391BDC708600D2D3BE /* Build configuration list for PBXNativeTarget "LearnMotionUITests" */;
+			buildPhases = (
+				860663261BDC708600D2D3BE /* Sources */,
+				860663271BDC708600D2D3BE /* Frameworks */,
+				860663281BDC708600D2D3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8606632C1BDC708600D2D3BE /* PBXTargetDependency */,
+			);
+			name = LearnMotionUITests;
+			productName = LearnMotionUITests;
+			productReference = 8606632A1BDC708600D2D3BE /* LearnMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860663031BDC708600D2D3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Gavin Chan";
+				TargetAttributes = {
+					8606630A1BDC708600D2D3BE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8606631E1BDC708600D2D3BE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8606630A1BDC708600D2D3BE;
+					};
+					860663291BDC708600D2D3BE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8606630A1BDC708600D2D3BE;
+					};
+				};
+			};
+			buildConfigurationList = 860663061BDC708600D2D3BE /* Build configuration list for PBXProject "LearnMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860663021BDC708600D2D3BE;
+			productRefGroup = 8606630C1BDC708600D2D3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8606630A1BDC708600D2D3BE /* LearnMotion */,
+				8606631E1BDC708600D2D3BE /* LearnMotionTests */,
+				860663291BDC708600D2D3BE /* LearnMotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860663091BDC708600D2D3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860663191BDC708600D2D3BE /* LaunchScreen.storyboard in Resources */,
+				860663161BDC708600D2D3BE /* Assets.xcassets in Resources */,
+				860663141BDC708600D2D3BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8606631D1BDC708600D2D3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860663281BDC708600D2D3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860663071BDC708600D2D3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8606633D1BDC71D400D2D3BE /* DTW.swift in Sources */,
+				860663111BDC708600D2D3BE /* ViewController.swift in Sources */,
+				8606630F1BDC708600D2D3BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8606631B1BDC708600D2D3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860663241BDC708600D2D3BE /* LearnMotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860663261BDC708600D2D3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8606632F1BDC708600D2D3BE /* LearnMotionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		860663211BDC708600D2D3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8606630A1BDC708600D2D3BE /* LearnMotion */;
+			targetProxy = 860663201BDC708600D2D3BE /* PBXContainerItemProxy */;
+		};
+		8606632C1BDC708600D2D3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8606630A1BDC708600D2D3BE /* LearnMotion */;
+			targetProxy = 8606632B1BDC708600D2D3BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		860663121BDC708600D2D3BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860663131BDC708600D2D3BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		860663171BDC708600D2D3BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860663181BDC708600D2D3BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860663311BDC708600D2D3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		860663321BDC708600D2D3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860663341BDC708600D2D3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LearnMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LearnMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/gavin/Documents/hackingedu/LearnMotion/JoeyBridgeHeader.h;
+			};
+			name = Debug;
+		};
+		860663351BDC708600D2D3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LearnMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LearnMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/gavin/Documents/hackingedu/LearnMotion/JoeyBridgeHeader.h;
+			};
+			name = Release;
+		};
+		860663371BDC708600D2D3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LearnMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LearnMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnMotion.app/LearnMotion";
+			};
+			name = Debug;
+		};
+		860663381BDC708600D2D3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LearnMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LearnMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnMotion.app/LearnMotion";
+			};
+			name = Release;
+		};
+		8606633A1BDC708600D2D3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LearnMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LearnMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LearnMotion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8606633B1BDC708600D2D3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LearnMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LearnMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LearnMotion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860663061BDC708600D2D3BE /* Build configuration list for PBXProject "LearnMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860663311BDC708600D2D3BE /* Debug */,
+				860663321BDC708600D2D3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860663331BDC708600D2D3BE /* Build configuration list for PBXNativeTarget "LearnMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860663341BDC708600D2D3BE /* Debug */,
+				860663351BDC708600D2D3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860663361BDC708600D2D3BE /* Build configuration list for PBXNativeTarget "LearnMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860663371BDC708600D2D3BE /* Debug */,
+				860663381BDC708600D2D3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860663391BDC708600D2D3BE /* Build configuration list for PBXNativeTarget "LearnMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8606633A1BDC708600D2D3BE /* Debug */,
+				8606633B1BDC708600D2D3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860663031BDC708600D2D3BE /* Project object */;
+}
